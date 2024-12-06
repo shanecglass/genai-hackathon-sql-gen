@@ -1,0 +1,57 @@
+[
+    {
+        "name": "ml_generate_embedding_start_sec",
+        "is_nullable": "YES",
+        "data_type": "INT64"
+    },
+    {
+        "name": "doc_embedding_multimodal",
+        "is_nullable": "NO",
+        "data_type": "ARRAY<FLOAT64>"
+    },
+    {
+        "name": "ml_generate_embedding_end_sec",
+        "is_nullable": "YES",
+        "data_type": "INT64"
+    },
+    {
+        "name": "ml_generate_embedding_status",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "uri",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "size",
+        "is_nullable": "YES",
+        "data_type": "INT64"
+    },
+    {
+        "name": "updated",
+        "is_nullable": "YES",
+        "data_type": "TIMESTAMP"
+    },
+    {
+        "name": "metadata",
+        "is_nullable": "NO",
+        "data_type": "ARRAY<STRUCT<name STRING, value STRING>>"
+    },
+    {
+        "name": "md5_hash",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "content_type",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "generation",
+        "is_nullable": "YES",
+        "data_type": "INT64"
+    }
+]

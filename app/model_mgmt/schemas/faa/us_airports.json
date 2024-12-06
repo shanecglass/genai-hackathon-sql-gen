@@ -1,0 +1,137 @@
+[
+    {
+        "name": "elevation",
+        "is_nullable": "YES",
+        "data_type": "FLOAT64"
+    },
+    {
+        "name": "pacific",
+        "is_nullable": "YES",
+        "data_type": "BOOL"
+    },
+    {
+        "name": "longitude",
+        "is_nullable": "YES",
+        "data_type": "FLOAT64"
+    },
+    {
+        "name": "airport_type",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "state_abbreviation",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "name",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "latitude",
+        "is_nullable": "YES",
+        "data_type": "FLOAT64"
+    },
+    {
+        "name": "far_91",
+        "is_nullable": "YES",
+        "data_type": "BOOL"
+    },
+    {
+        "name": "us_area",
+        "is_nullable": "YES",
+        "data_type": "BOOL"
+    },
+    {
+        "name": "oper_status",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "airport_geom",
+        "is_nullable": "YES",
+        "data_type": "GEOGRAPHY"
+    },
+    {
+        "name": "iap_exists",
+        "is_nullable": "YES",
+        "data_type": "BOOL"
+    },
+    {
+        "name": "ak_low",
+        "is_nullable": "YES",
+        "data_type": "BOOL"
+    },
+    {
+        "name": "airspace_analysis",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "far_93",
+        "is_nullable": "YES",
+        "data_type": "BOOL"
+    },
+    {
+        "name": "country",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "airport_use",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "object_id",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "service_city",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "ak_high",
+        "is_nullable": "YES",
+        "data_type": "BOOL"
+    },
+    {
+        "name": "mil_code",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "us_low",
+        "is_nullable": "YES",
+        "data_type": "BOOL"
+    },
+    {
+        "name": "global_id",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "us_high",
+        "is_nullable": "YES",
+        "data_type": "BOOL"
+    },
+    {
+        "name": "icao_id",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "faa_identifier",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "dod_hiflip",
+        "is_nullable": "YES",
+        "data_type": "BOOL"
+    }
+]

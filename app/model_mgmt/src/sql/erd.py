@@ -1,0 +1,11 @@
+# flake8: noqa --E501
+
+query_text = """
+SELECT
+    STRING_AGG(query) AS query
+FROM
+    `region-us-west1`.INFORMATION_SCHEMA.JOBS
+WHERE
+    creation_time BETWEEN TIMESTAMP_SUB(CURRENT_TIMESTAMP(), INTERVAL 60 DAY) AND TIMESTAMP_SUB(CURRENT_TIMESTAMP(), INTERVAL 1 DAY)
+    AND query LIKE "%JOIN%"
+"""

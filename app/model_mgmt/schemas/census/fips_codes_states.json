@@ -1,0 +1,22 @@
+[
+    {
+        "name": "state_gnisid",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "state_postal_abbreviation",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "state_name",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "state_fips_code",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    }
+]

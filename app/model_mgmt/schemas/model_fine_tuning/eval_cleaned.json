@@ -1,0 +1,12 @@
+[
+    {
+        "name": "label",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "prompt",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    }
+]

@@ -1,0 +1,87 @@
+[
+    {
+        "name": "area_water_meters",
+        "is_nullable": "YES",
+        "data_type": "INT64"
+    },
+    {
+        "name": "lsad_code",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "int_point_geom",
+        "is_nullable": "YES",
+        "data_type": "GEOGRAPHY"
+    },
+    {
+        "name": "state",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "int_point_lon",
+        "is_nullable": "YES",
+        "data_type": "FLOAT64"
+    },
+    {
+        "name": "state_geom",
+        "is_nullable": "YES",
+        "data_type": "GEOGRAPHY"
+    },
+    {
+        "name": "int_point_lat",
+        "is_nullable": "YES",
+        "data_type": "FLOAT64"
+    },
+    {
+        "name": "_PARTITIONTIME",
+        "is_nullable": "NO",
+        "data_type": "TIMESTAMP"
+    },
+    {
+        "name": "division_code",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "region_code",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "area_land_meters",
+        "is_nullable": "YES",
+        "data_type": "INT64"
+    },
+    {
+        "name": "state_gnis_code",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "state_name",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "geo_id",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "functional_status",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "state_fips_code",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "mtfcc_feature_class_code",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    }
+]

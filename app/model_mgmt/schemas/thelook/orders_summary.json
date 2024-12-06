@@ -1,0 +1,17 @@
+[
+    {
+        "name": "order_total_usd",
+        "is_nullable": "YES",
+        "data_type": "FLOAT64"
+    },
+    {
+        "name": "items_in_order",
+        "is_nullable": "YES",
+        "data_type": "INT64"
+    },
+    {
+        "name": "order_id",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    }
+]

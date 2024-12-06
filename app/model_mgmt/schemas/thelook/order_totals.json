@@ -1,0 +1,62 @@
+[
+    {
+        "name": "delivered_at",
+        "is_nullable": "YES",
+        "data_type": "DATETIME"
+    },
+    {
+        "name": "inventory_item_id",
+        "is_nullable": "YES",
+        "data_type": "INT64"
+    },
+    {
+        "name": "order_price_bucket",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "product_id",
+        "is_nullable": "YES",
+        "data_type": "INT64"
+    },
+    {
+        "name": "sale_price",
+        "is_nullable": "YES",
+        "data_type": "FLOAT64"
+    },
+    {
+        "name": "shipped_at",
+        "is_nullable": "YES",
+        "data_type": "DATETIME"
+    },
+    {
+        "name": "id",
+        "is_nullable": "YES",
+        "data_type": "INT64"
+    },
+    {
+        "name": "created_at",
+        "is_nullable": "YES",
+        "data_type": "DATETIME"
+    },
+    {
+        "name": "status",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "returned_at",
+        "is_nullable": "YES",
+        "data_type": "DATETIME"
+    },
+    {
+        "name": "user_id",
+        "is_nullable": "YES",
+        "data_type": "INT64"
+    },
+    {
+        "name": "order_id",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    }
+]

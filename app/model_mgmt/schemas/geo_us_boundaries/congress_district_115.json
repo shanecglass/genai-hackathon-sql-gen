@@ -1,0 +1,77 @@
+[
+    {
+        "name": "lsad_name",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "congress_session",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "area_water_meters",
+        "is_nullable": "YES",
+        "data_type": "INT64"
+    },
+    {
+        "name": "lsad_code",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "int_point_geom",
+        "is_nullable": "YES",
+        "data_type": "GEOGRAPHY"
+    },
+    {
+        "name": "district_geom",
+        "is_nullable": "YES",
+        "data_type": "GEOGRAPHY"
+    },
+    {
+        "name": "int_point_lon",
+        "is_nullable": "YES",
+        "data_type": "FLOAT64"
+    },
+    {
+        "name": "int_point_lat",
+        "is_nullable": "YES",
+        "data_type": "FLOAT64"
+    },
+    {
+        "name": "_PARTITIONTIME",
+        "is_nullable": "NO",
+        "data_type": "TIMESTAMP"
+    },
+    {
+        "name": "area_land_meters",
+        "is_nullable": "YES",
+        "data_type": "INT64"
+    },
+    {
+        "name": "functional_status",
+        "is_nullable": "YES",
+        "data_type": "BOOL"
+    },
+    {
+        "name": "geo_id",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "district_fips_code",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "state_fips_code",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "mtfcc_feature_class_code",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    }
+]

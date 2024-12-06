@@ -1,0 +1,17 @@
+[
+    {
+        "name": "content",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "doc_embed_multimodal",
+        "is_nullable": "NO",
+        "data_type": "ARRAY<FLOAT64>"
+    },
+    {
+        "name": "chunk_id",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    }
+]

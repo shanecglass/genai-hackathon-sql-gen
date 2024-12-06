@@ -1,0 +1,57 @@
+[
+    {
+        "name": "shape_geometry",
+        "is_nullable": "YES",
+        "data_type": "GEOGRAPHY"
+    },
+    {
+        "name": "name",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "state",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "fe_area",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "lon",
+        "is_nullable": "YES",
+        "data_type": "FLOAT64"
+    },
+    {
+        "name": "state_zone",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "zone",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "cwa",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "shortname",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "lat",
+        "is_nullable": "YES",
+        "data_type": "FLOAT64"
+    },
+    {
+        "name": "time_zone",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    }
+]

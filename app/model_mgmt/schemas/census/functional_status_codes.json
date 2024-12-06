@@ -1,0 +1,17 @@
+[
+    {
+        "name": "code_description",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "associated_geographic_entity",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "functional_status_code",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "name": "consolidated_city_fips_code",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "county_fips_code",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "county_subdivision_fips_code",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "summary_level",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "place_fips_code",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "state_fips_code",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "summary_level_name",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "area_name",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    }
+]

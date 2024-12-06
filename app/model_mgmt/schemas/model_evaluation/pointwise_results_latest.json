@@ -1,0 +1,57 @@
+[
+    {
+        "name": "response",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "context",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "instruction_following_explanation",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "instruction_following_score",
+        "is_nullable": "YES",
+        "data_type": "FLOAT64"
+    },
+    {
+        "name": "groundedness_score",
+        "is_nullable": "YES",
+        "data_type": "FLOAT64"
+    },
+    {
+        "name": "safety_score",
+        "is_nullable": "YES",
+        "data_type": "FLOAT64"
+    },
+    {
+        "name": "instructions",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "groundedness_explanation",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "reference",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "prompt",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "safety_explanation",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    }
+]

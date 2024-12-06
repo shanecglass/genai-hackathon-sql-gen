@@ -1,0 +1,27 @@
+[
+    {
+        "name": "full_name",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "_PARTITIONTIME",
+        "is_nullable": "NO",
+        "data_type": "TIMESTAMP"
+    },
+    {
+        "name": "railway_geom",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "geo_id",
+        "is_nullable": "YES",
+        "data_type": "INT64"
+    },
+    {
+        "name": "mtfcc_feature_class_code",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    }
+]

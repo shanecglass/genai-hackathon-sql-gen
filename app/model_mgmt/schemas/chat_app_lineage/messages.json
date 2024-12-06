@@ -1,0 +1,62 @@
+[
+    {
+        "name": "message_id",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "token_count",
+        "is_nullable": "YES",
+        "data_type": "INT64"
+    },
+    {
+        "name": "message_time",
+        "is_nullable": "YES",
+        "data_type": "TIMESTAMP"
+    },
+    {
+        "name": "_PARTITIONTIME",
+        "is_nullable": "NO",
+        "data_type": "TIMESTAMP"
+    },
+    {
+        "name": "session_id",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "total_billable_characters",
+        "is_nullable": "YES",
+        "data_type": "INT64"
+    },
+    {
+        "name": "subscription_name",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "message_text",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "publish_time",
+        "is_nullable": "YES",
+        "data_type": "TIMESTAMP"
+    },
+    {
+        "name": "attributes",
+        "is_nullable": "YES",
+        "data_type": "JSON"
+    },
+    {
+        "name": "message_embedding",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "message_count",
+        "is_nullable": "YES",
+        "data_type": "INT64"
+    }
+]

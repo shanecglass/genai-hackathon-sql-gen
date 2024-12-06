@@ -1,0 +1,77 @@
+[
+    {
+        "name": "longitude",
+        "is_nullable": "YES",
+        "data_type": "FLOAT64"
+    },
+    {
+        "name": "email",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "city",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "state",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "latitude",
+        "is_nullable": "YES",
+        "data_type": "FLOAT64"
+    },
+    {
+        "name": "postal_code",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "last_name",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "traffic_source",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "id",
+        "is_nullable": "YES",
+        "data_type": "INT64"
+    },
+    {
+        "name": "street_address",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "country",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "created_at",
+        "is_nullable": "YES",
+        "data_type": "TIMESTAMP"
+    },
+    {
+        "name": "gender",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "age",
+        "is_nullable": "YES",
+        "data_type": "INT64"
+    },
+    {
+        "name": "first_name",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "name": "response",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "context",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "instructions",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "reference",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "rouge_l_sum_score",
+        "is_nullable": "YES",
+        "data_type": "FLOAT64"
+    },
+    {
+        "name": "prompt",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    }
+]

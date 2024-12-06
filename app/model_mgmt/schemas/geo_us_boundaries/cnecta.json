@@ -1,0 +1,62 @@
+[
+    {
+        "name": "area_water_meters",
+        "is_nullable": "YES",
+        "data_type": "INT64"
+    },
+    {
+        "name": "cnecta_geom",
+        "is_nullable": "YES",
+        "data_type": "GEOGRAPHY"
+    },
+    {
+        "name": "name",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "int_point_lon",
+        "is_nullable": "YES",
+        "data_type": "FLOAT64"
+    },
+    {
+        "name": "int_point_lat",
+        "is_nullable": "YES",
+        "data_type": "FLOAT64"
+    },
+    {
+        "name": "name_lsad",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "_PARTITIONTIME",
+        "is_nullable": "NO",
+        "data_type": "TIMESTAMP"
+    },
+    {
+        "name": "area_land_meters",
+        "is_nullable": "YES",
+        "data_type": "INT64"
+    },
+    {
+        "name": "cnecta_fips_code",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "geo_id",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "lsad",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "mtfcc_feature_class_code",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    }
+]

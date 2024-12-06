@@ -1,0 +1,27 @@
+[
+    {
+        "name": "hotel_address",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "hotel_name",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "nearest_attractions",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "id",
+        "is_nullable": "YES",
+        "data_type": "INT64"
+    },
+    {
+        "name": "hotel_description",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    }
+]

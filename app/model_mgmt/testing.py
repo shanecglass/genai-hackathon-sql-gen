@@ -1,0 +1,5 @@
+# gemma_endpoint_id = "9151758645514469376"
+# gemini_tuned_endpoint_id = "3511774168418877440"
+project_number = "889908940895"
+project_id = "scg-l200-genai2"
+location = "us-west1"

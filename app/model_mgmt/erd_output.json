@@ -1,0 +1,62 @@
+[
+	{
+		"table1": "travel_chat.users",
+		"table2": "travel_chat.user_airports",
+		"join_type": "JOIN",
+		"on": "user_id, user_name"
+	},
+	{
+		"table1": "scg-l200-genai2.geo_us_boundaries.states",
+		"table2": "scg-l200-genai2.travel_chat.users",
+		"join_type": "JOIN",
+		"on": "fips.state = REGEXP_EXTRACT(users.user_location, r', ([A-Z]{2})$')"
+	},
+	{
+		"table1": "fips_codes",
+		"table2": "scg-l200-genai2.geo_us_places.us_national_places",
+		"join_type": "LEFT JOIN",
+		"on": "places.state_fips_code = fips_codes.state_fips_code AND places.place_name = REGEXP_EXTRACT(fips_codes.user_location, r'^(.*), [A-Z]{2}$')"
+	},
+	{
+		"table1": "hold",
+		"table2": "scg-l200-genai2.faa.us_airports",
+		"join_type": "CROSS JOIN",
+		"on": ""
+	},
+	{
+		"table1": "scg-l200-genai2.chat_app_lineage.messages",
+		"table2": "scg-l200-genai2.chat_app_lineage.replies",
+		"join_type": "JOIN",
+		"on": "m.session_id = r.session_id AND m.message_count = r.reply_count"
+	},
+	{
+		"table1": "chat_app_lineage.messages",
+		"table2": "chat_app_lineage.replies",
+		"join_type": "JOIN",
+		"on": "m.session_id = r.session_id AND m.message_count = r.reply_count"
+	},
+	{
+		"table1": "ML.GENERATE_EMBEDDING( MODEL `model_fine_tuning.text_embedding_004`,\n    (\n    SELECT\n      *, hotel_description AS content\n    FROM\n      `scg-l200-genai2.hotels.florence`),\n    STRUCT(TRUE AS flatten_json_output) )",
+		"table2": "hotels.florence_hold",
+		"join_type": "JOIN",
+		"on": "id"
+	},
+	{
+		"table1": "scg-l200-genai2.travel_chat.users",
+		"table2": "scg-l200-genai2.travel_chat.user_airports",
+		"join_type": "JOIN",
+		"on": "airport.user_name = REPLACE(users.user_name, \" \", \"_\")"
+	},
+	{
+		"table1": "scg-l200-genai2.travel_chat.user_airports",
+		"table2": "hold",
+		"join_type": "JOIN",
+		"on": "x.name = hold.airport"
+	},
+	{
+		"table1": "scg-l200-genai2.geo_us_boundaries.states",
+		"table2": "scg-l200-genai2.travel_chat.users",
+		"join_type": "JOIN",
+		"on": "fips.state = REGEXP_EXTRACT(users.city, r', ([A-Z]{2})$')"
+	}
+]

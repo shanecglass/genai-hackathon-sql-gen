@@ -1,0 +1,22 @@
+[
+    {
+        "name": "name",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "geo_id",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "aff_geo_id",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "us_outline_geom",
+        "is_nullable": "YES",
+        "data_type": "GEOGRAPHY"
+    }
+]

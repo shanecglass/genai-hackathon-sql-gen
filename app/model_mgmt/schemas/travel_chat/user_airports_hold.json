@@ -1,0 +1,17 @@
+[
+    {
+        "name": "user_name",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "user_airports",
+        "is_nullable": "NO",
+        "data_type": "ARRAY<STRUCT<name STRING, geom GEOGRAPHY, distance_in_miles FLOAT64>>"
+    },
+    {
+        "name": "user_id",
+        "is_nullable": "YES",
+        "data_type": "INT64"
+    }
+]

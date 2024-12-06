@@ -1,0 +1,17 @@
+[
+    {
+        "name": "name",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "_PARTITIONTIME",
+        "is_nullable": "NO",
+        "data_type": "TIMESTAMP"
+    },
+    {
+        "name": "coastline_geom",
+        "is_nullable": "YES",
+        "data_type": "GEOGRAPHY"
+    }
+]

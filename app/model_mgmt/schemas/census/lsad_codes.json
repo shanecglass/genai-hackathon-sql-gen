@@ -1,0 +1,17 @@
+[
+    {
+        "name": "associated_geographic_entities",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "lsad_code",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "lsad_description",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    }
+]

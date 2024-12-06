@@ -1,0 +1,32 @@
+[
+    {
+        "name": "county_fips_code",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "neighbors",
+        "is_nullable": "NO",
+        "data_type": "ARRAY<STRING>"
+    },
+    {
+        "name": "neighbors_fips_code",
+        "is_nullable": "NO",
+        "data_type": "ARRAY<STRING>"
+    },
+    {
+        "name": "state",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "neighbors_state",
+        "is_nullable": "NO",
+        "data_type": "ARRAY<STRING>"
+    },
+    {
+        "name": "county",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    }
+]

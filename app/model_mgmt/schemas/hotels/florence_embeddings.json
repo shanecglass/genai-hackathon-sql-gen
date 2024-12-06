@@ -1,0 +1,72 @@
+[
+    {
+        "name": "hotel_address",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "hotel_name",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "nearest_attractions_embeddings",
+        "is_nullable": "NO",
+        "data_type": "ARRAY<FLOAT64>"
+    },
+    {
+        "name": "nearest_attractions",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "hotel_description_token_count",
+        "is_nullable": "YES",
+        "data_type": "JSON"
+    },
+    {
+        "name": "hotel_description_embeddings_string",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "nearest_attractions_embeddings_truncated",
+        "is_nullable": "YES",
+        "data_type": "JSON"
+    },
+    {
+        "name": "hotel_description_embeddings_truncated",
+        "is_nullable": "YES",
+        "data_type": "JSON"
+    },
+    {
+        "name": "embedding_model",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "nearest_attractions_embeddings_string",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "id",
+        "is_nullable": "YES",
+        "data_type": "INT64"
+    },
+    {
+        "name": "nearest_attractions_token_count",
+        "is_nullable": "YES",
+        "data_type": "JSON"
+    },
+    {
+        "name": "hotel_description_embeddings",
+        "is_nullable": "NO",
+        "data_type": "ARRAY<FLOAT64>"
+    },
+    {
+        "name": "hotel_description",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    }
+]

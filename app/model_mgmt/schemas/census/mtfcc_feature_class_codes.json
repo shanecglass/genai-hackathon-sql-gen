@@ -1,0 +1,37 @@
+[
+    {
+        "name": "areal",
+        "is_nullable": "YES",
+        "data_type": "BOOL"
+    },
+    {
+        "name": "linear",
+        "is_nullable": "YES",
+        "data_type": "BOOL"
+    },
+    {
+        "name": "feature_class",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "feature_class_code",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "description",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "superclass",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "point",
+        "is_nullable": "YES",
+        "data_type": "BOOL"
+    }
+]

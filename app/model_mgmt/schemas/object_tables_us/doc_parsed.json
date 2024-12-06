@@ -1,0 +1,22 @@
+[
+    {
+        "name": "uri",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "output",
+        "is_nullable": "YES",
+        "data_type": "JSON"
+    },
+    {
+        "name": "content",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "chunk_id",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "name": "output_text",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "input_text",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    }
+]

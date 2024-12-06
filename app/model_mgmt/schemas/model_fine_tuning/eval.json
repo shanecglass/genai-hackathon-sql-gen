@@ -1,0 +1,7 @@
+[
+    {
+        "name": "text",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    }
+]

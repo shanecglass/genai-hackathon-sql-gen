@@ -1,0 +1,27 @@
+[
+    {
+        "name": "evaluation_status",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "rouge-l_precision",
+        "is_nullable": "YES",
+        "data_type": "FLOAT64"
+    },
+    {
+        "name": "bleu4_score",
+        "is_nullable": "YES",
+        "data_type": "FLOAT64"
+    },
+    {
+        "name": "rouge-l_f1_score",
+        "is_nullable": "YES",
+        "data_type": "FLOAT64"
+    },
+    {
+        "name": "rouge-l_recall",
+        "is_nullable": "YES",
+        "data_type": "FLOAT64"
+    }
+]

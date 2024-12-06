@@ -1,0 +1,12 @@
+[
+    {
+        "name": "uri",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "output",
+        "is_nullable": "YES",
+        "data_type": "JSON"
+    }
+]

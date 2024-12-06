@@ -1,0 +1,97 @@
+[
+    {
+        "name": "principal_city_msa",
+        "is_nullable": "YES",
+        "data_type": "BOOL"
+    },
+    {
+        "name": "place_geom",
+        "is_nullable": "YES",
+        "data_type": "GEOGRAPHY"
+    },
+    {
+        "name": "area_water_meters",
+        "is_nullable": "YES",
+        "data_type": "INT64"
+    },
+    {
+        "name": "lsad_code",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "place_name",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "name_lsad",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "place_id",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "_PARTITIONTIME",
+        "is_nullable": "NO",
+        "data_type": "TIMESTAMP"
+    },
+    {
+        "name": "area_land_meters",
+        "is_nullable": "YES",
+        "data_type": "INT64"
+    },
+    {
+        "name": "internal_point_lat",
+        "is_nullable": "YES",
+        "data_type": "FLOAT64"
+    },
+    {
+        "name": "principal_city_ne",
+        "is_nullable": "YES",
+        "data_type": "BOOL"
+    },
+    {
+        "name": "state_name",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "fips_class_code",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "functional_status",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "place_gnis_code",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "place_fips_code",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "state_fips_code",
+        "is_nullable": "YES",
+        "data_type": "STRING"
+    },
+    {
+        "name": "internal_point_lon",
+        "is_nullable": "YES",
+        "data_type": "FLOAT64"
+    },
+    {
+        "name": "internal_point_geom",
+        "is_nullable": "YES",
+        "data_type": "GEOGRAPHY"
+    }
+]

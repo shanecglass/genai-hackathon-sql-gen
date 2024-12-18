@@ -250,7 +250,6 @@ def generate_sql(request: str, project_id: str = project_id) -> str:
     for x, datasets, y in os.walk(schema_dir):
         for dataset in datasets:
             dataset_list.append(dataset)
-    print(dataset_list)
     bq_schema = extract_sql(schema_dir)
     erd_json_path = Path(os.path.join(local_dir, "src", "erd_output.json"))
     with open(erd_json_path, "r") as f:
